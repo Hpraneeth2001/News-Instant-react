@@ -219,7 +219,7 @@ async  componentDidMount(){
   render() {
     return (
           <>
-            <h1 className="text-center" style={{margin:"35px 0px"}}>NewsMonkey- Top {this.capitalalizeFirstLetter(this.props.category)} Headlines</h1>
+            <h1 className="text-center" style={{margin:"35px 0px"}}>News-Instant- Top {this.capitalalizeFirstLetter(this.props.category)} Headlines</h1>
             {this.state.loading && <Spinner/>}
             <InfiniteScroll
     dataLength={this.state.articles.length}
